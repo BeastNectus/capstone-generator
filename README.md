@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Capstone Idea Generator
 
-## Getting Started
+A dynamic web application to help students and developers generate distinctive and detailed capstone project ideas tailored to specific industries, project types, and difficulty levels.
 
-First, run the development server:
+![Project Preview](./preview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Filters**: Select your desired industry, project type, and difficulty level.
+- **Detailed Suggestions**: Generates tailored project ideas with:
+  - Project title and description
+  - Suggested languages and frameworks
+  - Team roles and similar projects
+  - Estimated timeline
+- **API Integration**: Limited API usage for cost management.
+- **Responsive Design**: Works seamlessly across devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💡 Example Output: "Study Buddy"
 
-## Learn More
+### Project Overview
+**Study Buddy** is a mobile app connecting students with study partners based on shared courses and schedules.
 
-To learn more about Next.js, take a look at the following resources:
+### Tech Stack
+- **Languages**: JavaScript, React Native
+- **Team Roles**:
+  - Frontend Developer
+  - Backend Developer
+  - UI/UX Designer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Similar Projects
+- [StudyPal](#)
+- [CollabStudy](#)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Timeline
+- **Estimated Duration**: 3 months
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+- Node.js
+- npm or Yarn
+- API key for external integrations
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/capstone-idea-generator.git
+   cd capstone-idea-generator
