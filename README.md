@@ -49,5 +49,5 @@ A dynamic web application to help students and developers generate distinctive a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/capstone-idea-generator.git
-   cd capstone-idea-generator
+   https://github.com/BeastNectus/capstone-generator.git
+   cd capstone-generator
