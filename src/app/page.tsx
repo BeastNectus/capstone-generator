@@ -170,7 +170,7 @@ export default function Home() {
                   <CardTitle className="text-white">Filters</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-6">
+                  <div className="space-y-4">
                     <div>
                       <Label htmlFor="industry" className="text-white">
                         Industry
@@ -276,11 +276,11 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="mt-6">
+                  <div className="mt-6 w-full flex items-center justify-center">
                     <Button
                       onClick={generateProjectIdea}
                       disabled={loading}
-                      className="w-full flex items-center justify-center space-x-2 font-extrabold bg-green-700 text-white hover:text-white hover:bg-green-600"
+                      className="space-x-2 font-extrabold bg-green-700 text-white hover:text-white hover:bg-green-600"
                     >
                       <span>Generate</span>
                       {loading ? (
@@ -292,8 +292,7 @@ export default function Home() {
                   </div>
                   <p className="hidden lg:inline-flex italic text-slate-300 mt-4 text-sm gap-2">
                     <span className="font-bold">Note:</span>The API is limited
-                    to control costs. For concerns, email me at{" "}
-                    <span className="font-bold"> beastnectus@gmail.com</span>
+                    to control costs. For concerns, email me at {"beastnectus@gmail.com"}
                   </p>
                 </CardContent>
               </Card>
@@ -344,7 +343,7 @@ export default function Home() {
               </div>
             </div>
             {/* Result Panel */}
-            <div className="w-full lg:w-full flex flex-col justify-center items-center p-6 bg-zinc-800 rounded-lg shadow-lg">
+            <div className="w-full h-full lg:w-full lg:h-full flex flex-col justify-center items-center p-6 bg-zinc-800 rounded-lg shadow-lg">
               {loading ? (
                 <div className="flex justify-center">
                   <Spinner color="white" />
@@ -441,8 +440,7 @@ export default function Home() {
             </div>
             <p className="sm:block lg:hidden italic text-slate-300 mt-1 text-sm">
               <span className="font-bold">Note:</span>The API is limited to
-              control costs. For concerns, email me at{" "}
-              <span className="font-bold">beastnectus@gmail.com</span>
+              control costs. For concerns, email me at {"beastnectus@gmail.com"}
             </p>
           </div>
         </div>
