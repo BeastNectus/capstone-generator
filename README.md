@@ -2,8 +2,6 @@
 
 A dynamic web application to help students and developers generate distinctive and detailed capstone project ideas tailored to specific industries, project types, and difficulty levels.
 
-![Project Preview](./preview.png)
-
 ## 🚀 Features
 
 - **Filters**: Select your desired industry, project type, and difficulty level.
